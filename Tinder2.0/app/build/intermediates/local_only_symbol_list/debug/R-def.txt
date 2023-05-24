@@ -4,6 +4,13 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id confirm
+id email
+id femaleRadioButton
+id genderRadioGroup
+id maleRadioButton
+id password
+id placeholder
 layout activity_main
 layout fragment_registration_fragmnet
 mipmap ic_launcher

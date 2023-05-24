@@ -2626,6 +2626,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id confirm
 id confirm_button
 id constraint
 id container
@@ -2675,6 +2676,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email
 id end
 id endToStart
 id enterAlways
@@ -2683,6 +2685,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id femaleRadioButton
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2694,6 +2697,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frost
+id genderRadioGroup
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2734,6 +2738,7 @@ id line3
 id linear
 id listMode
 id list_item
+id maleRadioButton
 id masked
 id match_constraint
 id match_parent
@@ -2820,12 +2825,14 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
 id pin
+id placeholder
 id position
 id postLayout
 id progress_circular

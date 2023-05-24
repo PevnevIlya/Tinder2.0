@@ -16,8 +16,13 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ConstraintLayout placeholder;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout placeholder) {
     this.rootView = rootView;
+    this.placeholder = placeholder;
   }
 
   @Override
@@ -47,6 +52,8 @@ public final class ActivityMainBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityMainBinding((ConstraintLayout) rootView);
+    ConstraintLayout placeholder = (ConstraintLayout) rootView;
+
+    return new ActivityMainBinding((ConstraintLayout) rootView, placeholder);
   }
 }
