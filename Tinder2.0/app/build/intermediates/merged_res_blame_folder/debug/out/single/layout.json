@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.tinder20.app-mergeDebugResources-27:/layout/fragment_registration_fragmnet.xml",
+        "source": "com.example.tinder20.app-main-30:/layout/fragment_registration_fragmnet.xml"
+    },
+    {
+        "merged": "com.example.tinder20.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "com.example.tinder20.app-main-30:/layout/activity_main.xml"
+    }
+]

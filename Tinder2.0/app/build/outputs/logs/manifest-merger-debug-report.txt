@@ -4,6 +4,7 @@ ADDED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20726b3e361eabf9b54082841e1303c6\transformed\viewbinding-8.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\ba4cc2befbb359c52328d180269a1d22\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\3cae25784ebfb4c0599386af814f8091\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\da3af8012fa67e5768328e072a223aed\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -28,11 +29,10 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS\.gradle\cac
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\b03e1cc73a0f9d7bf734dacd062bf3b0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\b270d1a26e91fe5547d283a56cc4ab3b\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\d8c28343c4feb374b74d906300bde6df\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\ea0ab68945162517ed73eef3de23625e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\13e497b7eaaadcc2b20f8c9992f4a897\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\ASUS\.gradle\caches\transforms-3\48ed710e30198c95f93d82053f508267\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\d1506c186a44b1de0e70badcbefc1a75\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a63aaaf57154c9f74e9a0a711becda08\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\707fd31ff92b465859845020f8964899\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
@@ -44,6 +44,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8c5194eec066db8c4efb601303ac5786\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b4668d75037c068d3f79cdc70c7e7229\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\7d5b05374c342a92ff7ff9fe13e37379\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml:2:1-26:12
@@ -119,6 +120,8 @@ uses-sdk
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20726b3e361eabf9b54082841e1303c6\transformed\viewbinding-8.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20726b3e361eabf9b54082841e1303c6\transformed\viewbinding-8.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\ba4cc2befbb359c52328d180269a1d22\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\ba4cc2befbb359c52328d180269a1d22\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\3cae25784ebfb4c0599386af814f8091\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -167,16 +170,14 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3
 MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\b270d1a26e91fe5547d283a56cc4ab3b\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\d8c28343c4feb374b74d906300bde6df\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\d8c28343c4feb374b74d906300bde6df\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\ea0ab68945162517ed73eef3de23625e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\ea0ab68945162517ed73eef3de23625e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\13e497b7eaaadcc2b20f8c9992f4a897\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\13e497b7eaaadcc2b20f8c9992f4a897\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\ASUS\.gradle\caches\transforms-3\48ed710e30198c95f93d82053f508267\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\ASUS\.gradle\caches\transforms-3\48ed710e30198c95f93d82053f508267\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\62e0f8844dc8bdeb4f5fa9cd3935aec5\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\d1506c186a44b1de0e70badcbefc1a75\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\d1506c186a44b1de0e70badcbefc1a75\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a63aaaf57154c9f74e9a0a711becda08\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -199,6 +200,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\b4668d75037c068d3f79cdc70c7e7229\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\7d5b05374c342a92ff7ff9fe13e37379\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\7d5b05374c342a92ff7ff9fe13e37379\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\70c573556c37ca1af1af7fbdbeea79bb\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\ASUS\Tinder2.0\Tinder2.0\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

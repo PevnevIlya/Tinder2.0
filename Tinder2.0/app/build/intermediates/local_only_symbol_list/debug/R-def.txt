@@ -5,9 +5,11 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 layout activity_main
+layout fragment_registration_fragmnet
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string hello_blank_fragment
 style Base.Theme.Tinder20
 style Theme.Tinder20
 xml backup_rules
