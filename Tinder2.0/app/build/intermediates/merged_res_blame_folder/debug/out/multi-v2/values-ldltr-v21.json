@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tinder20.app-mergeDebugResources-26:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.tinder20.app-mergeDebugResources-27:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\558e8d9b27b3ef1f19c48e98e25708f5\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\66780b6d0ab0ea838791606c6a5077a2\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

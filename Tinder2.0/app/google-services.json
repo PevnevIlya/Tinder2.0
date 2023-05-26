@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "361753456173",
+    "firebase_url": "https://appdb-3bb59-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "appdb-3bb59",
+    "storage_bucket": "appdb-3bb59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361753456173:android:d4f01024c3fe0d737612a4",
+        "android_client_info": {
+          "package_name": "com.example.tinder20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg5mQQnCRsmeVNJylKMiQXm7rhG9QkDU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
