@@ -11,6 +11,7 @@ import android.widget.Toast
 import com.example.tinder20.R
 import com.example.tinder20.classes.GENDERS
 import com.example.tinder20.databinding.FragmentRegistrationFragmnetBinding
+import java.security.MessageDigest
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ktx.database
 import com.google.firebase.firestore.FirebaseFirestore
@@ -22,6 +23,10 @@ class RegistrationFragmnet : Fragment() {
     private lateinit var binding: FragmentRegistrationFragmnetBinding
     private var db = Firebase.firestore
     var gender = GENDERS.UNKNOWN
+    fun hashString(input: String): String {
+        val bytes = MessageDigest.getInstance("SHA-256").digest(input.toByteArray())
+        return bytes.joinToString("") { "%02x".format(it) }
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -47,15 +52,16 @@ class RegistrationFragmnet : Fragment() {
             val dBemail = binding.email.text.toString().trim()
             val dBpassword = binding.password.text.toString().trim()
 
+            val hashedPassword = hashString(dBpassword)
+
             val userMap = hashMapOf(
                 "email" to dBemail,
-                "password" to dBpassword,
+                "password" to hashedPassword,
                 "gender" to gender.name
             )
 
             usersCollection.add(userMap)
         }
-
         return binding.root
     }
 
