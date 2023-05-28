@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -40,10 +41,13 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
   @NonNull
   public final EditText password;
 
+  @NonNull
+  public final ToggleButton toggleButtonPassword;
+
   private FragmentRegistrationFragmnetBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button confirm, @NonNull EditText email, @NonNull RadioButton femaleRadioButton,
       @NonNull RadioGroup genderRadioGroup, @NonNull RadioButton maleRadioButton,
-      @NonNull EditText password) {
+      @NonNull EditText password, @NonNull ToggleButton toggleButtonPassword) {
     this.rootView = rootView;
     this.confirm = confirm;
     this.email = email;
@@ -51,6 +55,7 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
     this.genderRadioGroup = genderRadioGroup;
     this.maleRadioButton = maleRadioButton;
     this.password = password;
+    this.toggleButtonPassword = toggleButtonPassword;
   }
 
   @Override
@@ -116,8 +121,14 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toggleButton_password;
+      ToggleButton toggleButtonPassword = ViewBindings.findChildViewById(rootView, id);
+      if (toggleButtonPassword == null) {
+        break missingId;
+      }
+
       return new FragmentRegistrationFragmnetBinding((ConstraintLayout) rootView, confirm, email,
-          femaleRadioButton, genderRadioGroup, maleRadioButton, password);
+          femaleRadioButton, genderRadioGroup, maleRadioButton, password, toggleButtonPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

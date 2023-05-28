@@ -2,6 +2,9 @@ package com.example.tinder20.fragments
 
 import android.content.ContentValues
 import android.os.Bundle
+import android.text.InputType
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -44,6 +47,14 @@ class RegistrationFragmnet : Fragment() {
                 _, isChecked ->
             if (isChecked) {
                 gender = GENDERS.FEMALE
+            }
+        }
+
+        binding.toggleButtonPassword.setOnClickListener{
+            if(binding.password.transformationMethod == PasswordTransformationMethod.getInstance()){
+                binding.password.setTransformationMethod(HideReturnsTransformationMethod.getInstance())
+            } else {
+                binding.password.setTransformationMethod(PasswordTransformationMethod.getInstance())
             }
         }
 

@@ -3001,6 +3001,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleButton_password
 id top
 id topPanel
 id touch_outside

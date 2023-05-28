@@ -1,4 +1,4 @@
-#Sun May 28 12:20:58 MSK 2023
+#Sun May 28 12:59:16 MSK 2023
 base.0=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
