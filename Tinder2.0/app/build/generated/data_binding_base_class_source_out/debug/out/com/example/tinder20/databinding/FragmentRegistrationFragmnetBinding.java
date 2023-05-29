@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,12 +43,16 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
   public final EditText password;
 
   @NonNull
+  public final TextView textOnPassword;
+
+  @NonNull
   public final ToggleButton toggleButtonPassword;
 
   private FragmentRegistrationFragmnetBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button confirm, @NonNull EditText email, @NonNull RadioButton femaleRadioButton,
       @NonNull RadioGroup genderRadioGroup, @NonNull RadioButton maleRadioButton,
-      @NonNull EditText password, @NonNull ToggleButton toggleButtonPassword) {
+      @NonNull EditText password, @NonNull TextView textOnPassword,
+      @NonNull ToggleButton toggleButtonPassword) {
     this.rootView = rootView;
     this.confirm = confirm;
     this.email = email;
@@ -55,6 +60,7 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
     this.genderRadioGroup = genderRadioGroup;
     this.maleRadioButton = maleRadioButton;
     this.password = password;
+    this.textOnPassword = textOnPassword;
     this.toggleButtonPassword = toggleButtonPassword;
   }
 
@@ -121,6 +127,12 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textOnPassword;
+      TextView textOnPassword = ViewBindings.findChildViewById(rootView, id);
+      if (textOnPassword == null) {
+        break missingId;
+      }
+
       id = R.id.toggleButton_password;
       ToggleButton toggleButtonPassword = ViewBindings.findChildViewById(rootView, id);
       if (toggleButtonPassword == null) {
@@ -128,7 +140,8 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
       }
 
       return new FragmentRegistrationFragmnetBinding((ConstraintLayout) rootView, confirm, email,
-          femaleRadioButton, genderRadioGroup, maleRadioButton, password, toggleButtonPassword);
+          femaleRadioButton, genderRadioGroup, maleRadioButton, password, textOnPassword,
+          toggleButtonPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

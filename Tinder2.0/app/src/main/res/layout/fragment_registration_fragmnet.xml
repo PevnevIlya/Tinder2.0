@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:background="@null"
         android:ems="15"
-        android:inputType="text"
         android:hint="Enter email"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,11 +34,11 @@
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@null"
         android:ems="15"
         android:hint="Enter password"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
@@ -54,9 +54,9 @@
 
         <RadioButton
             android:id="@+id/maleRadioButton"
-            android:layout_weight="0.5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="0.5"
             android:text="Male" />
 
         <RadioButton
@@ -77,5 +77,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/genderRadioGroup" />
+
+    <TextView
+        android:id="@+id/textOnPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/password"
+        app:layout_constraintStart_toEndOf="@+id/password" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

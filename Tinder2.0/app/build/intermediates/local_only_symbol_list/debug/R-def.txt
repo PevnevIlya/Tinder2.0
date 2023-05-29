@@ -11,6 +11,7 @@ id genderRadioGroup
 id maleRadioButton
 id password
 id placeholder
+id textOnPassword
 id toggleButton_password
 layout activity_main
 layout fragment_registration_fragmnet
