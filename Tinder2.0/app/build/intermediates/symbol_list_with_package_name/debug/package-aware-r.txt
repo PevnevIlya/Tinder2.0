@@ -2767,7 +2767,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
-id femaleRadioButton
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2780,7 +2779,6 @@ id forever
 id fragmentContainerView
 id fragment_container_view_tag
 id frost
-id genderRadioGroup
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2825,7 +2823,6 @@ id linear
 id listMode
 id list_item
 id mainPage
-id maleRadioButton
 id masked
 id match_constraint
 id match_parent
@@ -2925,6 +2922,7 @@ id pin
 id placeholder
 id position
 id postLayout
+id progressBar
 id progress_action
 id progress_circular
 id progress_horizontal

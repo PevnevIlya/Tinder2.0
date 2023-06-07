@@ -7,14 +7,12 @@ drawable ic_launcher_foreground
 id action_registrationFragmnet_to_mainPage
 id confirm
 id email
-id femaleRadioButton
 id fragmentContainerView
-id genderRadioGroup
 id mainPage
-id maleRadioButton
 id navigation
 id password
 id placeholder
+id progressBar
 id registrationFragmnet
 id textOnPassword
 id toggleButton_password

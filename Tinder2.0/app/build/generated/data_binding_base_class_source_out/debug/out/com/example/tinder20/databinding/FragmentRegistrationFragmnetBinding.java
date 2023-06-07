@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
@@ -31,16 +30,10 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
-  public final RadioButton femaleRadioButton;
-
-  @NonNull
-  public final RadioGroup genderRadioGroup;
-
-  @NonNull
-  public final RadioButton maleRadioButton;
-
-  @NonNull
   public final EditText password;
+
+  @NonNull
+  public final ProgressBar progressBar;
 
   @NonNull
   public final TextView textOnPassword;
@@ -49,17 +42,14 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
   public final ToggleButton toggleButtonPassword;
 
   private FragmentRegistrationFragmnetBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button confirm, @NonNull EditText email, @NonNull RadioButton femaleRadioButton,
-      @NonNull RadioGroup genderRadioGroup, @NonNull RadioButton maleRadioButton,
-      @NonNull EditText password, @NonNull TextView textOnPassword,
+      @NonNull Button confirm, @NonNull EditText email, @NonNull EditText password,
+      @NonNull ProgressBar progressBar, @NonNull TextView textOnPassword,
       @NonNull ToggleButton toggleButtonPassword) {
     this.rootView = rootView;
     this.confirm = confirm;
     this.email = email;
-    this.femaleRadioButton = femaleRadioButton;
-    this.genderRadioGroup = genderRadioGroup;
-    this.maleRadioButton = maleRadioButton;
     this.password = password;
+    this.progressBar = progressBar;
     this.textOnPassword = textOnPassword;
     this.toggleButtonPassword = toggleButtonPassword;
   }
@@ -103,27 +93,15 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.femaleRadioButton;
-      RadioButton femaleRadioButton = ViewBindings.findChildViewById(rootView, id);
-      if (femaleRadioButton == null) {
-        break missingId;
-      }
-
-      id = R.id.genderRadioGroup;
-      RadioGroup genderRadioGroup = ViewBindings.findChildViewById(rootView, id);
-      if (genderRadioGroup == null) {
-        break missingId;
-      }
-
-      id = R.id.maleRadioButton;
-      RadioButton maleRadioButton = ViewBindings.findChildViewById(rootView, id);
-      if (maleRadioButton == null) {
-        break missingId;
-      }
-
       id = R.id.password;
       EditText password = ViewBindings.findChildViewById(rootView, id);
       if (password == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
@@ -140,8 +118,7 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
       }
 
       return new FragmentRegistrationFragmnetBinding((ConstraintLayout) rootView, confirm, email,
-          femaleRadioButton, genderRadioGroup, maleRadioButton, password, textOnPassword,
-          toggleButtonPassword);
+          password, progressBar, textOnPassword, toggleButtonPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
