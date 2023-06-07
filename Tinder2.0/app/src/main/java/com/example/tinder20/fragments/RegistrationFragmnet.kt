@@ -8,6 +8,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import androidx.navigation.findNavController
+import com.example.tinder20.MainActivity
+import com.example.tinder20.R
 import com.example.tinder20.classes.GENDERS
 import com.example.tinder20.databinding.FragmentRegistrationFragmnetBinding
 import java.security.MessageDigest
@@ -69,6 +74,7 @@ class RegistrationFragmnet : Fragment() {
                 "gender" to gender.name
             )
 
+            it.findNavController().navigate(R.id.action_registrationFragmnet_to_mainPage)
             usersCollection.add(userMap)
         }
         return binding.root

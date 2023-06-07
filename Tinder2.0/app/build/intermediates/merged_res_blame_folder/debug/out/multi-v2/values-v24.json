@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tinder20.app-mergeDebugResources-31:/values-v24/values-v24.xml",
+            "outputFile": "com.example.tinder20.app-mergeDebugResources-42:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\159ee0dc628aad3ff8c22b1516cd3be6\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",

@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.example.tinder20.app-mergeDebugResources-32:/layout/fragment_registration_fragmnet.xml",
-        "source": "com.example.tinder20.app-main-35:/layout/fragment_registration_fragmnet.xml"
+        "merged": "com.example.tinder20.app-mergeDebugResources-43:/layout/fragment_registration_fragmnet.xml",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_registration_fragmnet.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-mergeDebugResources-32:\\layout\\fragment_registration_fragmnet.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-35:\\layout\\fragment_registration_fragmnet.xml"
+        "merged": "com.example.tinder20.app-mergeDebugResources-43:/layout/fragment_main_page.xml",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_main_page.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-mergeDebugResources-32:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-35:\\layout\\activity_main.xml"
+        "merged": "com.example.tinder20.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.example.tinder20.app-main-46:/layout/activity_main.xml"
     }
 ]
