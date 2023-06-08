@@ -5,37 +5,23 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ProgressBar
-import android.widget.Toast
-import androidx.core.view.isVisible
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import com.example.tinder20.MainActivity
 import com.example.tinder20.R
-import com.example.tinder20.classes.GENDERS
 import com.example.tinder20.databinding.FragmentRegistrationFragmnetBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import java.security.MessageDigest
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
+import com.example.tinder20.functions.hashString
 
-class RegistrationFragmnet : Fragment() {
+class RegistrationFragment : Fragment() {
 
     private lateinit var mAuth : FirebaseAuth
     private lateinit var binding: FragmentRegistrationFragmnetBinding
-    fun hashString(input: String): String {
-        val bytes = MessageDigest.getInstance("SHA-256").digest(input.toByteArray())
-        return bytes.joinToString("") { "%02x".format(it) }
-    }
-    public override fun onStart() {
+
+    override fun onStart() {
         super.onStart()
         if(mAuth.currentUser != null){
             //логика перехода на основной экран
@@ -86,6 +72,6 @@ class RegistrationFragmnet : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = RegistrationFragmnet()
+        fun newInstance() = RegistrationFragment()
     }
 }
