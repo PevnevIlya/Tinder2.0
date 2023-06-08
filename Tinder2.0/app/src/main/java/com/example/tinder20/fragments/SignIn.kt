@@ -59,7 +59,7 @@ class SignIn : Fragment() {
             binding.progressBar.visibility = View.GONE
         }
 
-        binding.signIn.setOnClickListener{
+        binding.LogIn.setOnClickListener{
             it.findNavController().navigate(R.id.action_registrationFragmnet_to_signIn2)
         }
         return binding.root
