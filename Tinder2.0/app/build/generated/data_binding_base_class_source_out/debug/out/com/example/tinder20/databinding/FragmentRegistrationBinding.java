@@ -25,10 +25,16 @@ public final class FragmentRegistrationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnConfirm;
+  public final Button btnConfirmRegistaration;
+
+  @NonNull
+  public final Button btnSingIn;
 
   @NonNull
   public final CardView cvRegistration;
+
+  @NonNull
+  public final CardView cvSingIn;
 
   @NonNull
   public final TextInputEditText etEmail;
@@ -46,21 +52,29 @@ public final class FragmentRegistrationBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
+  public final TextView tvOr;
+
+  @NonNull
   public final TextView tvRegistrationLabel;
 
   private FragmentRegistrationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnConfirm, @NonNull CardView cvRegistration,
+      @NonNull Button btnConfirmRegistaration, @NonNull Button btnSingIn,
+      @NonNull CardView cvRegistration, @NonNull CardView cvSingIn,
       @NonNull TextInputEditText etEmail, @NonNull TextInputEditText etPassword,
       @NonNull TextInputLayout layoutEmailInput, @NonNull TextInputLayout layoutPasswordInput,
-      @NonNull ProgressBar progressBar, @NonNull TextView tvRegistrationLabel) {
+      @NonNull ProgressBar progressBar, @NonNull TextView tvOr,
+      @NonNull TextView tvRegistrationLabel) {
     this.rootView = rootView;
-    this.btnConfirm = btnConfirm;
+    this.btnConfirmRegistaration = btnConfirmRegistaration;
+    this.btnSingIn = btnSingIn;
     this.cvRegistration = cvRegistration;
+    this.cvSingIn = cvSingIn;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
     this.layoutEmailInput = layoutEmailInput;
     this.layoutPasswordInput = layoutPasswordInput;
     this.progressBar = progressBar;
+    this.tvOr = tvOr;
     this.tvRegistrationLabel = tvRegistrationLabel;
   }
 
@@ -91,15 +105,27 @@ public final class FragmentRegistrationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnConfirm;
-      Button btnConfirm = ViewBindings.findChildViewById(rootView, id);
-      if (btnConfirm == null) {
+      id = R.id.btnConfirmRegistaration;
+      Button btnConfirmRegistaration = ViewBindings.findChildViewById(rootView, id);
+      if (btnConfirmRegistaration == null) {
+        break missingId;
+      }
+
+      id = R.id.btnSingIn;
+      Button btnSingIn = ViewBindings.findChildViewById(rootView, id);
+      if (btnSingIn == null) {
         break missingId;
       }
 
       id = R.id.cvRegistration;
       CardView cvRegistration = ViewBindings.findChildViewById(rootView, id);
       if (cvRegistration == null) {
+        break missingId;
+      }
+
+      id = R.id.cvSingIn;
+      CardView cvSingIn = ViewBindings.findChildViewById(rootView, id);
+      if (cvSingIn == null) {
         break missingId;
       }
 
@@ -133,15 +159,21 @@ public final class FragmentRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvOr;
+      TextView tvOr = ViewBindings.findChildViewById(rootView, id);
+      if (tvOr == null) {
+        break missingId;
+      }
+
       id = R.id.tvRegistrationLabel;
       TextView tvRegistrationLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvRegistrationLabel == null) {
         break missingId;
       }
 
-      return new FragmentRegistrationBinding((ConstraintLayout) rootView, btnConfirm,
-          cvRegistration, etEmail, etPassword, layoutEmailInput, layoutPasswordInput, progressBar,
-          tvRegistrationLabel);
+      return new FragmentRegistrationBinding((ConstraintLayout) rootView, btnConfirmRegistaration,
+          btnSingIn, cvRegistration, cvSingIn, etEmail, etPassword, layoutEmailInput,
+          layoutPasswordInput, progressBar, tvOr, tvRegistrationLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

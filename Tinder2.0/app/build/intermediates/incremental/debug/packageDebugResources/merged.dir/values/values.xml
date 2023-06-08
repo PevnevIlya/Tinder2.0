@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="redError">#980000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Tinder2.0</string>
+    <string name="firebase_database_url" translatable="false">https://appdb-3bb59-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">361753456173</string>
+    <string name="google_api_key" translatable="false">AIzaSyBg5mQQnCRsmeVNJylKMiQXm7rhG9QkDU4</string>
+    <string name="google_app_id" translatable="false">1:361753456173:android:d4f01024c3fe0d737612a4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBg5mQQnCRsmeVNJylKMiQXm7rhG9QkDU4</string>
+    <string name="google_storage_bucket" translatable="false">appdb-3bb59.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">appdb-3bb59</string>
+    <style name="Base.Theme.Tinder20" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Tinder20" parent="Base.Theme.Tinder20"/>
+</resources>

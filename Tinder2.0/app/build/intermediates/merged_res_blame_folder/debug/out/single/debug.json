@@ -1,126 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/layout_fragment_sign_in.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_sign_in.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\navigation_navigation.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\navigation\\navigation.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\activity_main.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
-=======
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_main_page.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\fragment_main_page.xml"
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
+        "merged": "com.example.tinder20.app-merged_res-44:/layout_fragment_main_page.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_main_page.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/layout/activity_main.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
-=======
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_registration.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\fragment_registration.xml"
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
+        "merged": "com.example.tinder20.app-merged_res-44:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\navigation_navigation.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\navigation\\navigation.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_sign_in.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\fragment_sign_in.xml"
-=======
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
-    },
-    {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.tinder20.app-merged_res-44:/layout_fragment_registration.xml.flat",
         "source": "com.example.tinder20.app-main-46:/layout/fragment_registration.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.tinder20.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/navigation_navigation.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/navigation/navigation.xml"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\activity_main.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-=======
-        "merged": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_sign_in.xml.flat",
-        "source": "C:\\Users\\100nout.by\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\fragment_sign_in.xml"
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
+        "merged": "com.example.tinder20.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

@@ -4,7 +4,7 @@
             "outputFile": "com.example.tinder20.app-mergeDebugResources-42:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\159ee0dc628aad3ff8c22b1516cd3be6\\transformed\\material-1.5.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\159ee0dc628aad3ff8c22b1516cd3be6\\transformed\\material-1.5.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\88330fcdd1dccf62f2eded8e0ba984f5\\transformed\\play-services-base-18.1.0\\res\\values-ko\\values.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\88330fcdd1dccf62f2eded8e0ba984f5\\transformed\\play-services-base-18.1.0\\res\\values-ko\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -40,24 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\63bb8f9b029145b7ed371e6399e4f172\\transformed\\browser-1.4.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\56997ce870f663011f61ee0a7256ba88\\transformed\\play-services-basement-18.1.0\\res\\values-ko\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,141,234,337",
-                        "endColumns": "85,92,102,93",
-                        "endOffsets": "136,229,332,426"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "116",
+                        "endOffsets": "311"
                     },
                     "to": {
-                        "startLines": "55,58,59,60",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5114,5343,5436,5539",
-                        "endColumns": "85,92,102,93",
-                        "endOffsets": "5195,5431,5534,5628"
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4062",
+                        "endColumns": "120",
+                        "endOffsets": "4178"
                     }
                 },
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\b14bbecb4e374e7fae985da6b376b60d\\transformed\\appcompat-1.6.1\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\b14bbecb4e374e7fae985da6b376b60d\\transformed\\appcompat-1.6.1\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,41 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\0fb788a85890d24912e5f215ae00c759\\transformed\\navigation-ui-2.3.0-beta01\\res\\values-ko\\values-ko.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,155",
-                        "endColumns": "99,101",
-                        "endOffsets": "150,252"
-                    },
-                    "to": {
-                        "startLines": "111,112",
-                        "startColumns": "4,4",
-                        "startOffsets": "9200,9300",
-                        "endColumns": "99,101",
-                        "endOffsets": "9295,9397"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\6180f72d7b75adcf7328a66a03400101\\transformed\\navigation-dynamic-features-fragment-2.3.0-beta01\\res\\values-ko\\values-ko.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,148,237,322,386,460",
-                        "endColumns": "92,88,84,63,73,67",
-                        "endOffsets": "143,232,317,381,455,523"
-                    },
-                    "to": {
-                        "startLines": "62,63,64,113,115,116",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "5695,5788,5877,9402,9538,9612",
-                        "endColumns": "92,88,84,63,73,67",
-                        "endOffsets": "5783,5872,5957,9461,9607,9675"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\59814665b2f1066217b052f7ba411273\\transformed\\core-1.9.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\59814665b2f1066217b052f7ba411273\\transformed\\core-1.9.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -125,20 +91,54 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\100nout.by\\.gradle\\caches\\transforms-3\\56997ce870f663011f61ee0a7256ba88\\transformed\\play-services-basement-18.1.0\\res\\values-ko\\values.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\0fb788a85890d24912e5f215ae00c759\\transformed\\navigation-ui-2.3.0-beta01\\res\\values-ko\\values-ko.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "116",
-                        "endOffsets": "311"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,155",
+                        "endColumns": "99,101",
+                        "endOffsets": "150,252"
                     },
                     "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4062",
-                        "endColumns": "120",
-                        "endOffsets": "4178"
+                        "startLines": "111,112",
+                        "startColumns": "4,4",
+                        "startOffsets": "9200,9300",
+                        "endColumns": "99,101",
+                        "endOffsets": "9295,9397"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\63bb8f9b029145b7ed371e6399e4f172\\transformed\\browser-1.4.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,141,234,337",
+                        "endColumns": "85,92,102,93",
+                        "endOffsets": "136,229,332,426"
+                    },
+                    "to": {
+                        "startLines": "55,58,59,60",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5114,5343,5436,5539",
+                        "endColumns": "85,92,102,93",
+                        "endOffsets": "5195,5431,5534,5628"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\6180f72d7b75adcf7328a66a03400101\\transformed\\navigation-dynamic-features-fragment-2.3.0-beta01\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,148,237,322,386,460",
+                        "endColumns": "92,88,84,63,73,67",
+                        "endOffsets": "143,232,317,381,455,523"
+                    },
+                    "to": {
+                        "startLines": "62,63,64,113,115,116",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5695,5788,5877,9402,9538,9612",
+                        "endColumns": "92,88,84,63,73,67",
+                        "endOffsets": "5783,5872,5957,9461,9607,9675"
                     }
                 }
             ]

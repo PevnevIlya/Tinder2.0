@@ -1,33 +1,27 @@
 package com.example.tinder20.fragments
 
-import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
+import android.os.Looper
 import android.text.TextUtils
-import android.text.method.HideReturnsTransformationMethod
-import android.text.method.PasswordTransformationMethod
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.graphics.toColor
 import androidx.navigation.findNavController
 import com.example.tinder20.R
 import com.example.tinder20.databinding.FragmentRegistrationBinding
-<<<<<<< HEAD
 import com.example.tinder20.functions.hashString
-=======
-import com.google.android.material.textfield.TextInputLayout
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 import com.google.firebase.auth.FirebaseAuth
-import java.security.MessageDigest
-import com.example.tinder20.functions.hashString
+import com.google.firebase.auth.SignInMethodQueryResult
+import com.google.firebase.ktx.Firebase
 
 class RegistrationFragment : Fragment() {
 
     private lateinit var mAuth : FirebaseAuth
     private lateinit var binding: FragmentRegistrationBinding
-    public override fun onStart() {
+    override fun onStart() {
         super.onStart()
         if(mAuth.currentUser != null){
             //логика перехода на основной экран
@@ -59,10 +53,21 @@ class RegistrationFragment : Fragment() {
                 return@setOnClickListener
             }
             val hashedPassword = hashString(dBpassword)
-            mAuth.createUserWithEmailAndPassword(dBemail, hashedPassword)
+            FirebaseAuth.getInstance().fetchSignInMethodsForEmail(dBemail)
+                .addOnSuccessListener {
+                mAuth.createUserWithEmailAndPassword(dBemail, hashedPassword)
+                    .addOnSuccessListener {
+                        //логика когда юзер зарегистировался
+                    }
+                    .addOnFailureListener{
+                        //логика когда юзер не зарегестрировался,тк есть аккаунт с таким email
+                    }
+                }
+                .addOnFailureListener{
+                    //логика когда пользователь ввел неккоректный email
+                }
             binding.progressBar.visibility = View.GONE
         }
-
         binding.btnSingIn.setOnClickListener{
             it.findNavController().navigate(R.id.action_registrationFragmnet_to_signIn2)
         }

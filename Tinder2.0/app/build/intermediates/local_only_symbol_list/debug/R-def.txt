@@ -7,15 +7,10 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id action_registrationFragmnet_to_mainPage
 id action_registrationFragmnet_to_signIn2
-<<<<<<< HEAD
-id btnConfirm
-id cvRegistration
-=======
 id btnConfirmRegistaration
 id btnSingIn
 id cvRegistration
 id cvSingIn
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 id etEmail
 id etPassword
 id fragmentContainerView
@@ -27,10 +22,7 @@ id placeholder
 id progressBar
 id registrationFragmnet
 id signIn2
-<<<<<<< HEAD
-=======
 id tvOr
->>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 id tvRegistrationLabel
 layout activity_main
 layout fragment_main_page
