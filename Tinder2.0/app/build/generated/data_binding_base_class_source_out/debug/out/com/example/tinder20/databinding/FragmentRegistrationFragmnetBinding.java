@@ -36,6 +36,9 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
+  public final TextView signIn;
+
+  @NonNull
   public final TextView textOnPassword;
 
   @NonNull
@@ -43,13 +46,14 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
 
   private FragmentRegistrationFragmnetBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button confirm, @NonNull EditText email, @NonNull EditText password,
-      @NonNull ProgressBar progressBar, @NonNull TextView textOnPassword,
+      @NonNull ProgressBar progressBar, @NonNull TextView signIn, @NonNull TextView textOnPassword,
       @NonNull ToggleButton toggleButtonPassword) {
     this.rootView = rootView;
     this.confirm = confirm;
     this.email = email;
     this.password = password;
     this.progressBar = progressBar;
+    this.signIn = signIn;
     this.textOnPassword = textOnPassword;
     this.toggleButtonPassword = toggleButtonPassword;
   }
@@ -105,6 +109,12 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.signIn;
+      TextView signIn = ViewBindings.findChildViewById(rootView, id);
+      if (signIn == null) {
+        break missingId;
+      }
+
       id = R.id.textOnPassword;
       TextView textOnPassword = ViewBindings.findChildViewById(rootView, id);
       if (textOnPassword == null) {
@@ -118,7 +128,7 @@ public final class FragmentRegistrationFragmnetBinding implements ViewBinding {
       }
 
       return new FragmentRegistrationFragmnetBinding((ConstraintLayout) rootView, confirm, email,
-          password, progressBar, textOnPassword, toggleButtonPassword);
+          password, progressBar, signIn, textOnPassword, toggleButtonPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

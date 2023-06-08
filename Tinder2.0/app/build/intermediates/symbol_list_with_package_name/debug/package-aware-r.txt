@@ -2641,6 +2641,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_registrationFragmnet_to_mainPage
+id action_registrationFragmnet_to_signIn2
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2968,6 +2969,8 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signIn
+id signIn2
 id sin
 id skipCollapsed
 id skipped
@@ -3185,6 +3188,7 @@ layout design_text_input_start_icon
 layout dynamic_feature_install_fragment
 layout fragment_main_page
 layout fragment_registration_fragmnet
+layout fragment_sign_in
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -38,7 +38,7 @@ class RegistrationFragmnet : Fragment() {
     public override fun onStart() {
         super.onStart()
         if(mAuth.currentUser != null){
-            //логика перехода на основной экран 
+            //логика перехода на основной экран
         }
     }
     override fun onCreateView(
@@ -76,6 +76,10 @@ class RegistrationFragmnet : Fragment() {
             val hashedPassword = hashString(dBpassword)
             mAuth.createUserWithEmailAndPassword(dBemail, hashedPassword)
             binding.progressBar.visibility = View.GONE
+        }
+
+        binding.signIn.setOnClickListener{
+            it.findNavController().navigate(R.id.action_registrationFragmnet_to_signIn2)
         }
         return binding.root
     }

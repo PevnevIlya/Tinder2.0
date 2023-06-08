@@ -4,6 +4,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\activity_main.xml"
     },
     {
+        "merged": "com.example.tinder20.app-mergeDebugResources-43:/layout/fragment_sign_in.xml",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_sign_in.xml"
+    },
+    {
         "merged": "com.example.tinder20.app-mergeDebugResources-43:/layout/fragment_registration_fragmnet.xml",
         "source": "com.example.tinder20.app-main-46:/layout/fragment_registration_fragmnet.xml"
     },

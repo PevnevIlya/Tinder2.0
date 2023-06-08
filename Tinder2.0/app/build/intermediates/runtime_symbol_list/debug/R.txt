@@ -2640,6 +2640,7 @@ int id action_mode_bar 0x7f080040
 int id action_mode_bar_stub 0x7f080041
 int id action_mode_close_button 0x7f080042
 int id action_registrationFragmnet_to_mainPage 0x7f080043
+int id action_registrationFragmnet_to_signIn2 0x7f0801fa
 int id action_text 0x7f080044
 int id actions 0x7f080045
 int id activity_chooser_view_content 0x7f080046
@@ -2967,6 +2968,8 @@ int id shortcut 0x7f080189
 int id showCustom 0x7f08018a
 int id showHome 0x7f08018b
 int id showTitle 0x7f08018c
+int id signIn 0x7f0801fb
+int id signIn2 0x7f0801fc
 int id sin 0x7f08018d
 int id skipCollapsed 0x7f08018e
 int id skipped 0x7f08018f
@@ -3184,6 +3187,7 @@ int layout design_text_input_start_icon 0x7f0b002e
 int layout dynamic_feature_install_fragment 0x7f0b002f
 int layout fragment_main_page 0x7f0b0030
 int layout fragment_registration_fragmnet 0x7f0b0031
+int layout fragment_sign_in 0x7f0b0079
 int layout m3_alert_dialog 0x7f0b0032
 int layout m3_alert_dialog_actions 0x7f0b0033
 int layout m3_alert_dialog_title 0x7f0b0034

@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_registrationFragmnet_to_mainPage"
             app:destination="@id/mainPage" />
+        <action
+            android:id="@+id/action_registrationFragmnet_to_signIn2"
+            app:destination="@id/signIn2" />
     </fragment>
     <fragment
         android:id="@+id/mainPage"
         android:name="com.example.tinder20.fragments.MainPage"
         android:label="fragment_main_page"
         tools:layout="@layout/fragment_main_page" />
+    <fragment
+        android:id="@+id/signIn2"
+        android:name="com.example.tinder20.fragments.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
 </navigation>
