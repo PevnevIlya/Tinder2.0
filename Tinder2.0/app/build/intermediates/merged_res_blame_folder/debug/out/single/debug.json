@@ -16,16 +16,28 @@
         "source": "com.example.tinder20.app-main-46:/layout/fragment_sign_in.xml"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\navigation_navigation.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\navigation\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\xml\\backup_rules.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\navigation_navigation.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\navigation\\navigation.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -40,12 +52,8 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_sign_in.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\layout\\fragment_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -56,8 +64,8 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.example.tinder20.app-merged_res-44:/layout_fragment_registration.xml.flat",
+        "source": "com.example.tinder20.app-main-46:/layout/fragment_registration.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\layout_fragment_registration_fragmnet.xml.flat",
@@ -86,9 +94,5 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.example.tinder20.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.tinder20.app-merged_res-44:/layout_fragment_registration_fragmnet.xml.flat",
-        "source": "com.example.tinder20.app-main-46:/layout/fragment_registration_fragmnet.xml"
     }
 ]

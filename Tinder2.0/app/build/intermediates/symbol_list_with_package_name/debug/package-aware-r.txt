@@ -2680,6 +2680,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnConfirm
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2707,7 +2708,6 @@ id clockwise
 id closest
 id collapseActionView
 id compress
-id confirm
 id confirm_button
 id constraint
 id container
@@ -2722,6 +2722,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvRegistration
 id dark
 id date_picker_actions
 id decelerate
@@ -2759,11 +2760,12 @@ id easeOut
 id east
 id edit_query
 id elastic
-id email
 id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etEmail
+id etPassword
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2814,6 +2816,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutEmailInput
+id layoutPasswordInput
 id left
 id leftToRight
 id legacy
@@ -2913,7 +2917,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
 id password_toggle
 id path
 id pathRelative
@@ -2969,7 +2972,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signIn
 id signIn2
 id sin
 id skipCollapsed
@@ -3024,7 +3026,6 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
-id textOnPassword
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3043,7 +3044,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toggleButton_password
 id top
 id topPanel
 id touch_outside
@@ -3055,6 +3055,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvRegistrationLabel
 id unchecked
 id uniform
 id unlabeled
@@ -3187,7 +3188,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dynamic_feature_install_fragment
 layout fragment_main_page
-layout fragment_registration_fragmnet
+layout fragment_registration
 layout fragment_sign_in
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
