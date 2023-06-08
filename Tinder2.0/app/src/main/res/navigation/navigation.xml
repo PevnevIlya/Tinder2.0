@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/registrationFragmnet"
-        android:name="com.example.tinder20.fragments.RegistrationFragmnet"
+        android:name="com.example.tinder20.fragments.RegistrationFragment"
         android:label="fragment_registration_fragmnet"
-        tools:layout="@layout/fragment_registration_fragmnet" >
+        tools:layout="@layout/fragment_registration" >
         <action
             android:id="@+id/action_registrationFragmnet_to_mainPage"
             app:destination="@id/mainPage" />

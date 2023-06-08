@@ -5,32 +5,20 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ProgressBar
-import android.widget.Toast
-import androidx.core.view.isVisible
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import com.example.tinder20.MainActivity
 import com.example.tinder20.R
-import com.example.tinder20.classes.GENDERS
-import com.example.tinder20.databinding.FragmentRegistrationFragmnetBinding
+import com.example.tinder20.databinding.FragmentRegistrationBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import java.security.MessageDigest
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
 
-class RegistrationFragmnet : Fragment() {
+class RegistrationFragment : Fragment() {
 
     private lateinit var mAuth : FirebaseAuth
-    private lateinit var binding: FragmentRegistrationFragmnetBinding
+    private lateinit var binding: FragmentRegistrationBinding
     fun hashString(input: String): String {
         val bytes = MessageDigest.getInstance("SHA-256").digest(input.toByteArray())
         return bytes.joinToString("") { "%02x".format(it) }
@@ -45,7 +33,7 @@ class RegistrationFragmnet : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentRegistrationFragmnetBinding.inflate(inflater, container, false)
+        binding = FragmentRegistrationBinding.inflate(inflater, container, false)
         mAuth = FirebaseAuth.getInstance()
         binding.toggleButtonPassword.setOnClickListener{
             if(binding.password.transformationMethod == PasswordTransformationMethod.getInstance()){
@@ -86,6 +74,6 @@ class RegistrationFragmnet : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = RegistrationFragmnet()
+        fun newInstance() = RegistrationFragment()
     }
 }
