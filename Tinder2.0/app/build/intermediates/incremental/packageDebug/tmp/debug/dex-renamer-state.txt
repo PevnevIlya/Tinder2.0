@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Thu Jun 08 22:39:17 MSK 2023
 base.0=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
@@ -8,15 +9,35 @@ base.5=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\d
 base.6=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.7=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 base.8=C\:\\Users\\ASUS\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+=======
+#Thu Jun 08 15:27:03 MSK 2023
+base.0=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.3=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.6=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.7=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.8=C\:\\myMainPackage\\workspace\\programming\\My_projects\\android_projects\\Tinder2.0\\Tinder2.0\\Tinder2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+>>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=15/classes.dex
 path.3=1/classes.dex
+<<<<<<< HEAD
 path.4=3/classes.dex
 path.5=6/classes.dex
 path.6=classes2.dex
 path.7=classes3.dex
 path.8=2/classes.dex
+=======
+path.4=2/classes.dex
+path.5=3/classes.dex
+path.6=6/classes.dex
+path.7=classes2.dex
+path.8=classes3.dex
+>>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex

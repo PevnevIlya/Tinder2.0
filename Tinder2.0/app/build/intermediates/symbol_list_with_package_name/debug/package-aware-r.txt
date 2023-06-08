@@ -1799,6 +1799,7 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color radiobutton_themeable_attribute_color
+color redError
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2680,7 +2681,12 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+<<<<<<< HEAD
 id btnConfirm
+=======
+id btnConfirmRegistaration
+id btnSingIn
+>>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2723,6 +2729,10 @@ id custom
 id customPanel
 id cut
 id cvRegistration
+<<<<<<< HEAD
+=======
+id cvSingIn
+>>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 id dark
 id date_picker_actions
 id decelerate
@@ -3055,6 +3065,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+<<<<<<< HEAD
+=======
+id tvOr
+>>>>>>> 5d8d266223a00623b074c68a38c946c7aaafae16
 id tvRegistrationLabel
 id unchecked
 id uniform
