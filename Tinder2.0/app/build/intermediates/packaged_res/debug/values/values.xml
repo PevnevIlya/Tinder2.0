@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="redError">#980000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Tinder2.0</string>
     <string name="firebase_database_url" translatable="false">https://appdb-3bb59-default-rtdb.europe-west1.firebasedatabase.app</string>

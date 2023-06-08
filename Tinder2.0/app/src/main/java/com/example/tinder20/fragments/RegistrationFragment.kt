@@ -1,5 +1,6 @@
 package com.example.tinder20.fragments
 
+import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,9 +10,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.graphics.toColor
 import androidx.navigation.findNavController
 import com.example.tinder20.R
 import com.example.tinder20.databinding.FragmentRegistrationBinding
+import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import java.security.MessageDigest
 
@@ -36,7 +39,7 @@ class RegistrationFragment : Fragment() {
         binding = FragmentRegistrationBinding.inflate(inflater, container, false)
         mAuth = FirebaseAuth.getInstance()
 
-        binding.btnConfirm.setOnClickListener {
+        binding.btnConfirmRegistaration.setOnClickListener {
             binding.progressBar.visibility = View.VISIBLE
             val dBemail = binding.etEmail.text.toString().trim()
             val dBpassword = binding.etPassword.text.toString().trim()
@@ -49,8 +52,8 @@ class RegistrationFragment : Fragment() {
                 return@setOnClickListener
             }
             if (binding.etPassword.text.toString().length < 8) {
-//                binding.textOnPassword.setTextColor(Color.RED)
-//                binding.textOnPassword.text = "8+ symbols!"
+                binding.etPassword.setHintTextColor(R.color.redError.toInt())
+                binding.layoutPasswordInput.helperText = "8+ symbols!"
                 binding.progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
@@ -59,9 +62,9 @@ class RegistrationFragment : Fragment() {
             binding.progressBar.visibility = View.GONE
         }
 
-//        binding.signIn.setOnClickListener{
-//            it.findNavController().navigate(R.id.action_registrationFragmnet_to_signIn2)
-//        }
+        binding.btnSingIn.setOnClickListener{
+            it.findNavController().navigate(R.id.action_registrationFragmnet_to_signIn2)
+        }
         return binding.root
     }
 
