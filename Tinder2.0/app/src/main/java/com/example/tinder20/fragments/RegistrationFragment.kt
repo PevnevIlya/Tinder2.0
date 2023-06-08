@@ -12,17 +12,15 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.tinder20.R
 import com.example.tinder20.databinding.FragmentRegistrationBinding
+import com.example.tinder20.functions.hashString
 import com.google.firebase.auth.FirebaseAuth
 import java.security.MessageDigest
+import com.example.tinder20.functions.hashString
 
 class RegistrationFragment : Fragment() {
 
     private lateinit var mAuth : FirebaseAuth
     private lateinit var binding: FragmentRegistrationBinding
-    fun hashString(input: String): String {
-        val bytes = MessageDigest.getInstance("SHA-256").digest(input.toByteArray())
-        return bytes.joinToString("") { "%02x".format(it) }
-    }
     public override fun onStart() {
         super.onStart()
         if(mAuth.currentUser != null){
